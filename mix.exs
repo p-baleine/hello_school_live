@@ -29,10 +29,10 @@ defmodule HelloSchoolLive.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:cowboy, "~> 1.0"},
+      {:cowboy, github: "ninenines/cowboy"},
       {:postgrex, ">= 0.0.0"},
       {:ecto, "~> 0.14.3"},
-      {:poison, "~> 1.4.0"} # ← 追記
+      {:poison, "~> 1.4.0"}
     ]
   end
 end
